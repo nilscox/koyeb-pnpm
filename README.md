@@ -9,3 +9,6 @@ koyeb app init koyeb-pnpm \
   --git-build-command ./build.sh \
   --git-run-command ./run.sh
 ```
+
+> Make sure you don't set NODE_ENV=production in the service's environment variables, otherwise koyeb will try
+> to prune devDependencies with npm.

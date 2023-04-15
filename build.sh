@@ -13,4 +13,4 @@ curl -fsSL https://get.pnpm.io/install.sh | SHELL=sh ENV=~/.shrc sh
 pnpm install
 
 # run the build script
-pnpm build
+NODE_ENV=production pnpm build
